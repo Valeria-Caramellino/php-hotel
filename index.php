@@ -9,7 +9,7 @@
    
 </head>
 <style>
-  
+
 </style>
 <body>
 <?php 
@@ -131,7 +131,7 @@ if ($hotel["parking"] == $controlloParking || $controlloParking === null) {
                         </tbody>
                     </table>
                 </div>
-
+    
             </div>
 
         </section>

@@ -76,7 +76,7 @@ if ($hotel["parking"] == $controlloParking || $controlloParking === null) {
 ?>
     <header>
         <section class="container">
-            <div class="row bg-primary text-center">
+            <div class="row bg-success text-center">
                 <div class="col-12">
                     <h1>PHP HOTEL</h1>
                 </div>
@@ -94,7 +94,7 @@ if ($hotel["parking"] == $controlloParking || $controlloParking === null) {
                             </label>
                             <input type="number" class="form-control d-inline-block px-2 py-1" id="vote" name="vote" min="1" max="5">
                         </div>
-                        <button type="submit" class="btn btn-dark px-2 py-1 mx-3">Appica</button>
+                        <button type="submit" class="btn btn-dark px-2 py-1 mx-3">Applica</button>
                     </form>
                 </div>
                 

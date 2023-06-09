@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Hotel</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-   
+   <link rel="stylesheet" href="style.css">
 </head>
-<style>
 
-</style>
 <body>
 <?php 
 
@@ -107,9 +106,9 @@ if ($hotel["parking"] == $controlloParking || $controlloParking === null) {
     <main>
         <section class="container">
             <div class="row">
-                <div class="col-11">
-                    <table class="table">
-                        <thead>
+                <div class="col-11 my-4 mx-auto">
+                    <table class="table text-light">
+                        <thead class="bg-light text-black">
                             <?php foreach ($hotels[0] as $key => $value) { ?>
                                 <th scope="col"><?= ucwords(str_replace('_', ' ', $key)) ?></th>
                             <?php }?>
